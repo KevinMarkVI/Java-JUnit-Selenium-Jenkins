@@ -159,7 +159,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * @throws Exception
      */
     @Test
-    public void verifyBelkHompage() throws Exception {
+    public void verifyGuineaPigTitle() throws Exception {
         driver.get("https://saucelabs.com/test/guinea-pig");
 
         assertTrue(driver.getTitle().equals("I am a page title - Sauce Labs"));
